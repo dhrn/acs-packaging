@@ -13,8 +13,8 @@ ARG USERID=33000
 
 # Set default environment args
 ARG TOMCAT_DIR=/usr/local/tomcat
-ARG JAVA_PROFILER=YourKit-JavaProfiler-2018.04-docker
-ARG JAVA_PROFILER_DIR=/usr/local/YourKit-JavaProfiler-2018.04
+ARG JAVA_PROFILER=YourKit-JavaProfiler-2019.8-docker
+ARG JAVA_PROFILER_DIR=/usr/local/YourKit-JavaProfiler-2019.8
 ARG JAVA_PROFILER_RUNTIME_DIR=/tmp/Alfresco/yourkit
 
 # Create prerequisite to store tools and properties
